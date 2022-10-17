@@ -13,11 +13,11 @@ public class Source {
 			for(int i=0;i<num;i++) {
 				input[i]=sc.next();
 				}
-			for(int i=0;i<num;i++) {
+			for(int i=0;i<num;i++)
+			{
 				if(input[i].contains("HR")) {
 					designation[count]=input[i];
 					count++;
-					
 				}
 			}
 		
